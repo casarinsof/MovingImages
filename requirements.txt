@@ -1,0 +1,12 @@
+torch
+torchvision
+numpy
+pillow
+opencv-python
+matplotlib
+optuna
+h5py
+imageio
+requests
+tqdm
+lmdb
