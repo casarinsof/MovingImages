@@ -5,10 +5,10 @@ import torchvision
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
-from network import ResNet18
+from movingimages.models.network import ResNet18
 import os
-from video_train import accuracy, AverageMeter
-from utils.augmented_dataset import AugmentedDataset
+from scripts.video_train import accuracy, AverageMeter
+from movingimages.utils.augmented_dataset import AugmentedDataset
 # Set device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

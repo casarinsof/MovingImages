@@ -4,7 +4,7 @@ import random
 import matplotlib.pyplot as plt
 from PIL import Image
 import cv2
-from utils.tiny import TinyImageNetDataset
+from movingimages.utils.tiny import TinyImageNetDataset
 
 np.random.seed(np.random.randint(1 << 30))
 num_frames = 12

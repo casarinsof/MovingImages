@@ -4,10 +4,10 @@ import torch.nn.parallel
 import torch.backends.cudnn as cudnn
 import torch.optim
 from torch.nn.utils import clip_grad_norm_
-from video_network import ResNet18
+from movingimages.models.video_network import ResNet18
 import torchvision.transforms as transforms
-from utils.transforms import ToTorchFormatTensor, GroupNormalize, Stack
-from utils.dataset import VideoDataset
+from movingimages.utils.transforms import ToTorchFormatTensor, GroupNormalize, Stack
+from movingimages.utils.dataset import VideoDataset
 from datetime import datetime
 import os
 from torch.utils.data import DataLoader

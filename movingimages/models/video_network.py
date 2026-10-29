@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
-from gateShift import GSF, Tsm
-from ops.basic_ops import ConsensusModule
+from movingimages.models.gateshift import GSF, Tsm
+from movingimages.ops.basic_ops import ConsensusModule
 import torchvision.models as models
 # Basic Block for ResNet-18 (consists of two Convolutional layers with Batch Normalization)
 

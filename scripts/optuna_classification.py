@@ -8,10 +8,10 @@ from torch.utils.data import DataLoader
 from torchvision.models import resnet152
 import os
 from optuna.trial import TrialState
-import video_train
-from video_train import AverageMeter
-from utils.augmented_dataset import AugmentedDataset
-from utils.tiny import TinyImageNetDataset
+from scripts import video_train
+from scripts.video_train import AverageMeter
+from movingimages.utils.augmented_dataset import AugmentedDataset
+from movingimages.utils.tiny import TinyImageNetDataset
 # Set device
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
